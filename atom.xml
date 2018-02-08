@@ -77,38 +77,6 @@
   </entry>
   
   <entry>
-    <title>test2</title>
-    <link href="https://jinhyunly.github.io/2018/02/08/helloz/"/>
-    <id>https://jinhyunly.github.io/2018/02/08/helloz/</id>
-    <published>2018-02-08T10:52:54.000Z</published>
-    <updated>2018-02-08T11:40:31.016Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="laravel"><a href="#laravel" class="headerlink" title="laravel"></a>laravel</h1><p>hhlkajsdf</p><h1 id="web"><a href="#web" class="headerlink" title="web"></a>web</h1><p>asdfasdfsdf</p><figure class="highlight php"><figcaption><span>1.php</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">Class</span> <span class="title">PHP</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;laravel&quot;&gt;&lt;a href=&quot;#laravel&quot; class=&quot;headerlink&quot; title=&quot;laravel&quot;&gt;&lt;/a&gt;laravel&lt;/h1&gt;&lt;p&gt;hhlkajsdf&lt;/p&gt;
-&lt;h1 id=&quot;web&quot;&gt;&lt;a href=&quot;#web&quot; class=&quot;h
-      
-    
-    </summary>
-    
-      <category term="web" scheme="https://jinhyunly.github.io/categories/web/"/>
-    
-      <category term="php" scheme="https://jinhyunly.github.io/categories/web/php/"/>
-    
-    
-      <category term="web" scheme="https://jinhyunly.github.io/tags/web/"/>
-    
-      <category term="php" scheme="https://jinhyunly.github.io/tags/php/"/>
-    
-      <category term="laravel" scheme="https://jinhyunly.github.io/tags/laravel/"/>
-    
-  </entry>
-  
-  <entry>
     <title>image load</title>
     <link href="https://jinhyunly.github.io/2018/02/08/first-post/"/>
     <id>https://jinhyunly.github.io/2018/02/08/first-post/</id>
