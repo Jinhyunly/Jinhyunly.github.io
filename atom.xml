@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jinhyunly.github.io/"/>
-  <updated>2018-02-08T13:31:11.001Z</updated>
+  <updated>2018-02-08T13:32:21.498Z</updated>
   <id>https://jinhyunly.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://jinhyunly.github.io/2018/02/08/mongoDB-install/"/>
     <id>https://jinhyunly.github.io/2018/02/08/mongoDB-install/</id>
     <published>2018-02-08T13:04:22.000Z</published>
-    <updated>2018-02-08T13:31:11.001Z</updated>
+    <updated>2018-02-08T13:32:21.498Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="window에-mongodb설치하기"><a href="#window에-mongodb설치하기" class="headerlink" title="window에 mongodb설치하기"></a>window에 mongodb설치하기</h1><ol><li><p><a href="https://www.mongodb.com/download-center?jmp=homepage#community" target="_blank" rel="noopener">https://www.mongodb.com/download-center?jmp=homepage#community</a> 접속</p><blockquote><p>Community Server 후 windows 환경에서 download 클릭</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="/image/1.mongo.jpg" alt="Alt text" title="image1">                </div>                <div class="image-caption">image1</div>            </figure></blockquote></li><li><p>next 쭉 눌러준다</p></li><li><p>기본으로 C:\ProgramFiles\MongoDB 로 설치된다</p></li><li><p>환경변수 path 경로에 새로만들기를 누르고  C:\ProgramFiles\MongoDB\Server\3.6\bin 로 잡아준다</p></li><li><p>C:\data\db 파일을 만들어준다</p></li><li><p>cmd에서<br>접근통제 없이 MongoDB를 시작한다</p><ul><li>mongod –port 27017 –dbpath /data/db<br>인스턴스에 연결</li><li>mongo –port 27017<br>액세스 제어로 MongoDB 인스턴스를 다시 시작</li><li>mongod –auth –port 27017 –dbpath /data/db</li></ul></li><li><p>cmd 창을 2개 키고  첫 cmd 창은 mongod를 입력하고 그대로 서버를 켜준다</p></li><li><p>나머지 1개의 창에는 mogod를 입력하고 시작한다. ()접속)</p></li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="window에-mongodb설치하기"><a href="#window에-mongodb설치하기" class="headerlink" title="window에 mongodb설치하기"></a>window에 mongodb설치하기</h1><ol><li><p><a href="https://www.mongodb.com/download-center?jmp=homepage#community" target="_blank" rel="noopener">https://www.mongodb.com/download-center?jmp=homepage#community</a> 접속</p><blockquote><p>Community Server 후 windows 환경에서 download 클릭</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="/image/1.mongo.jpg" alt="Alt text" title="image1">                </div>                <div class="image-caption">image1</div>            </figure></blockquote></li><li><p>next 쭉 눌러준다</p></li><li><p>기본으로 C:\ProgramFiles\MongoDB 로 설치된다</p></li><li><p>환경변수 path 경로에 새로만들기를 누르고  C:\ProgramFiles\MongoDB\Server\3.6\bin 로 잡아준다</p></li><li><p>C:\data\db 파일을 만들어준다</p></li><li><p>cmd에서<br>접근통제 없이 MongoDB를 시작한다</p><ul><li>mongod –port 27017 –dbpath /data/db<br>인스턴스에 연결</li><li>mongo –port 27017<br>액세스 제어로 MongoDB 인스턴스를 다시 시작</li><li>mongod –auth –port 27017 –dbpath /data/db</li></ul></li><li><p>cmd 창을 2개 키고  첫 cmd 창은 mongod를 입력하고 그대로 서버를 켜준다</p></li><li><p>나머지 1개의 창에는 mogod를 입력하고 시작한다. (접속)</p></li></ol>]]></content>
     
     <summary type="html">
     
