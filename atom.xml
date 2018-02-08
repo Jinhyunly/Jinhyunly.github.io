@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Jinhyunly page</title>
   
-  <subtitle>computer scientist</subtitle>
+  <subtitle>Computer Scientist</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jinhyunly.github.io/"/>
-  <updated>2018-02-08T10:55:00.128Z</updated>
+  <updated>2018-02-08T12:31:18.124Z</updated>
   <id>https://jinhyunly.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SpringFramework</title>
+    <link href="https://jinhyunly.github.io/2018/02/08/springFramework/"/>
+    <id>https://jinhyunly.github.io/2018/02/08/springFramework/</id>
+    <published>2018-02-08T12:29:23.000Z</published>
+    <updated>2018-02-08T12:31:18.124Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Spring-framework"><a href="#Spring-framework" class="headerlink" title="Spring framework"></a>Spring framework</h3><hr><blockquote><p>프레임워크란, 특정한 목적에 맞게 프로그램이을 쉽게 하기 위한 약속입니다.<br><br>자바 언어를 기반으로 다양한 어플리케이션을 제작하기 위한 약속된 프로그래밍 틀 이다.<br><br>스프링의 경우 톰캣을 이용할수 있다. (접근하기 쉽다)</p><ul><li>eclipse  / help / market place 에서 STS 검색후 install</li></ul></blockquote><h3 id="DI-Dependency-Injection-의존성-주입-와-IOC-컨테이너-Spring"><a href="#DI-Dependency-Injection-의존성-주입-와-IOC-컨테이너-Spring" class="headerlink" title="DI(Dependency Injection 의존성 주입) 와 IOC 컨테이너(Spring)"></a>DI(Dependency Injection 의존성 주입) 와 IOC 컨테이너(Spring)</h3><hr><blockquote><p>스프링이란 부품을 생성하고 조립하는 라이브러리 집합체라고 할 수 있다.</p><ul><li><p>AOP(Aspect Oriented Programming)<br>공통기능을 모든 모듈에 적용하기 위한 방법으로 상속을 통한 방법이 있다.<br>상속도 좋은 방법이지만 java에서 다중상속이 불가하므로 AOP방법으로 한다.<br>-공통기능을 분리시켜놓고 공통기능을 필요로 하는 핵심기능들에서 사용하는방식(공통기능을 재활용하는 방식)<br></p></li><li><p>AOP용어<br>-Aspect: 공통기능</p></li><li><ul><li>Advice: Aspect의 기능자체<br>-Joinpoint: Advice를 적용해야 되는 부분(ex 필드, 메소드) (스프링에서는 메소드만 해당)<br>-Pointcut: Joinpoint의 부분으로 실제로 Advice가 적용된 부분<br>-Weaving: Advice를 핵심 기능에 적용 하는 행위</li></ul></li></ul></blockquote><h3 id="스프링에서-AOP-구현-방법-proxy를-이용한다"><a href="#스프링에서-AOP-구현-방법-proxy를-이용한다" class="headerlink" title="스프링에서 AOP 구현 방법: proxy를 이용한다"></a>스프링에서 AOP 구현 방법: proxy를 이용한다</h3><blockquote><p>스프링에서 AOP 구현 방식 : XML스키마 기반으로 구현,  @Aspect 어노테이션 기반으로 구현<br><br>Advice 종류</p><ul><li><aop:before> : 메소드 실행전에 advice 실행<br><aop:after_returning> : 정상적으로 메소드 실행 후에 advice 실행<br><aop:throwing> : 메소드실행중 exception 발생시 advice  실행<br><aop:after> : 메소드 실행중 exception 이 발생하여도 advice 실행</aop:after></aop:throwing></aop:after_returning></aop:before></li><li><aop:around> : 메서드 실행 전/후 및 exception 발생 시 advice 실행</aop:around></li></ul></blockquote><h3 id="AspectJ-Pointcut-표현식"><a href="#AspectJ-Pointcut-표현식" class="headerlink" title="AspectJ Pointcut 표현식"></a>AspectJ Pointcut 표현식</h3><blockquote><p>pointcut을 지정할 때 사용하는 표현식으로 AspectJ 문법을 사용</p><p>* : 모든<br>. : 현재<br>.. : 0개 이상</p></blockquote><h3 id="스프링-MVC-개요"><a href="#스프링-MVC-개요" class="headerlink" title="스프링 MVC 개요"></a>스프링 MVC 개요</h3><blockquote><p>Spring이 웹 프레임워크로서 우수성이 인정되었기 때문에 유명해졌다<br><br>@Validator를 이용한 검증<br><br>폼에서 전달되는 데이터를 컴맨드 객체에 담아 컨트롤 객체에 전달한다.<br>이때 커멘드 객체의 유효성을 검사 할 수 있다.<br>참고로 javascript를 이용하는 것은 클라이언트에서 검사하는 방법이고<br>지금 하는 Validator 인터페이스를 이용하는 방법은 서버에서 검사하는 방법이다.</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Spring-framework&quot;&gt;&lt;a href=&quot;#Spring-framework&quot; class=&quot;headerlink&quot; title=&quot;Spring framework&quot;&gt;&lt;/a&gt;Spring framework&lt;/h3&gt;&lt;hr&gt;
+&lt;blockquote&gt;
+      
+    
+    </summary>
+    
+      <category term="web" scheme="https://jinhyunly.github.io/categories/web/"/>
+    
+      <category term="spring" scheme="https://jinhyunly.github.io/categories/web/spring/"/>
+    
+    
+      <category term="web" scheme="https://jinhyunly.github.io/tags/web/"/>
+    
+      <category term="spring" scheme="https://jinhyunly.github.io/tags/spring/"/>
+    
+  </entry>
   
   <entry>
     <title>test3</title>
@@ -46,10 +76,10 @@
   
   <entry>
     <title>test2</title>
-    <link href="https://jinhyunly.github.io/2018/02/08/test2/"/>
-    <id>https://jinhyunly.github.io/2018/02/08/test2/</id>
+    <link href="https://jinhyunly.github.io/2018/02/08/helloz/"/>
+    <id>https://jinhyunly.github.io/2018/02/08/helloz/</id>
     <published>2018-02-08T10:52:54.000Z</published>
-    <updated>2018-02-08T10:55:07.389Z</updated>
+    <updated>2018-02-08T11:40:31.016Z</updated>
     
     <content type="html"><![CDATA[<h1 id="laravel"><a href="#laravel" class="headerlink" title="laravel"></a>laravel</h1><p>hhlkajsdf</p><h1 id="web"><a href="#web" class="headerlink" title="web"></a>web</h1><p>asdfasdfsdf</p><figure class="highlight php"><figcaption><span>1.php</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">Class</span> <span class="title">PHP</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -77,56 +107,25 @@
   </entry>
   
   <entry>
-    <title>test</title>
-    <link href="https://jinhyunly.github.io/2018/02/08/test/"/>
-    <id>https://jinhyunly.github.io/2018/02/08/test/</id>
-    <published>2018-02-08T10:52:07.000Z</published>
-    <updated>2018-02-08T10:55:10.120Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="java"><a href="#java" class="headerlink" title="java"></a>java</h1><p>Hello</p><h1 id="spring"><a href="#spring" class="headerlink" title="spring"></a>spring</h1><p>Hello</p><h1 id="asdf-lkjasd"><a href="#asdf-lkjasd" class="headerlink" title="asdf;lkjasd"></a>asdf;lkjasd</h1><p>asdfdassdfa</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;java&quot;&gt;&lt;a href=&quot;#java&quot; class=&quot;headerlink&quot; title=&quot;java&quot;&gt;&lt;/a&gt;java&lt;/h1&gt;&lt;p&gt;Hello&lt;/p&gt;
-&lt;h1 id=&quot;spring&quot;&gt;&lt;a href=&quot;#spring&quot; class=&quot;headerlink&quot;
-      
-    
-    </summary>
-    
-      <category term="web" scheme="https://jinhyunly.github.io/categories/web/"/>
-    
-      <category term="java" scheme="https://jinhyunly.github.io/categories/web/java/"/>
-    
-    
-      <category term="web" scheme="https://jinhyunly.github.io/tags/web/"/>
-    
-      <category term="java" scheme="https://jinhyunly.github.io/tags/java/"/>
-    
-      <category term="spring" scheme="https://jinhyunly.github.io/tags/spring/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>first_post</title>
+    <title>image load</title>
     <link href="https://jinhyunly.github.io/2018/02/08/first-post/"/>
     <id>https://jinhyunly.github.io/2018/02/08/first-post/</id>
     <published>2018-02-08T09:06:38.000Z</published>
-    <updated>2018-02-08T09:33:43.317Z</updated>
+    <updated>2018-02-08T12:38:21.420Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="제목"><a href="#제목" class="headerlink" title="제목"></a>제목</h2><p>나의 첫번째 포스트입니다.</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="MarkDown-형식으로-이미지-올리는법"><a href="#MarkDown-형식으로-이미지-올리는법" class="headerlink" title="MarkDown 형식으로 이미지 올리는법"></a>MarkDown 형식으로 이미지 올리는법</h2><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="/image/avatar.jpg" alt="Alt text" title="image">                </div>                <div class="image-caption">image</div>            </figure><figure class="highlight plain"><figcaption><span>how can I image load</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![Alt text](/imageFolder_Name/imageFile_Name.jpg &quot;avatar&quot;)</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;제목&quot;&gt;&lt;a href=&quot;#제목&quot; class=&quot;headerlink&quot; title=&quot;제목&quot;&gt;&lt;/a&gt;제목&lt;/h2&gt;&lt;p&gt;나의 첫번째 포스트입니다.&lt;/p&gt;
-
+        &lt;h2 id=&quot;MarkDown-형식으로-이미지-올리는법&quot;&gt;&lt;a href=&quot;#MarkDown-형식으로-이미지-올리는법&quot; class=&quot;headerlink&quot; title=&quot;MarkDown 형식으로 이미지 올리는법&quot;&gt;&lt;/a&gt;MarkDown 형식으로 이미지 올리
       
     
     </summary>
     
+    
+      <category term="test" scheme="https://jinhyunly.github.io/tags/test/"/>
     
   </entry>
   
@@ -135,7 +134,7 @@
     <link href="https://jinhyunly.github.io/2018/02/08/hello-world/"/>
     <id>https://jinhyunly.github.io/2018/02/08/hello-world/</id>
     <published>2018-02-08T08:59:33.213Z</published>
-    <updated>2018-02-08T08:59:33.214Z</updated>
+    <updated>2018-02-08T11:35:11.980Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
