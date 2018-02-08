@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jinhyunly.github.io/"/>
-  <updated>2018-02-08T12:31:18.124Z</updated>
+  <updated>2018-02-08T13:31:11.001Z</updated>
   <id>https://jinhyunly.github.io/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>mongoDB_install</title>
+    <link href="https://jinhyunly.github.io/2018/02/08/mongoDB-install/"/>
+    <id>https://jinhyunly.github.io/2018/02/08/mongoDB-install/</id>
+    <published>2018-02-08T13:04:22.000Z</published>
+    <updated>2018-02-08T13:31:11.001Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="window에-mongodb설치하기"><a href="#window에-mongodb설치하기" class="headerlink" title="window에 mongodb설치하기"></a>window에 mongodb설치하기</h1><ol><li><p><a href="https://www.mongodb.com/download-center?jmp=homepage#community" target="_blank" rel="noopener">https://www.mongodb.com/download-center?jmp=homepage#community</a> 접속</p><blockquote><p>Community Server 후 windows 환경에서 download 클릭</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="/image/1.mongo.jpg" alt="Alt text" title="image1">                </div>                <div class="image-caption">image1</div>            </figure></blockquote></li><li><p>next 쭉 눌러준다</p></li><li><p>기본으로 C:\ProgramFiles\MongoDB 로 설치된다</p></li><li><p>환경변수 path 경로에 새로만들기를 누르고  C:\ProgramFiles\MongoDB\Server\3.6\bin 로 잡아준다</p></li><li><p>C:\data\db 파일을 만들어준다</p></li><li><p>cmd에서<br>접근통제 없이 MongoDB를 시작한다</p><ul><li>mongod –port 27017 –dbpath /data/db<br>인스턴스에 연결</li><li>mongo –port 27017<br>액세스 제어로 MongoDB 인스턴스를 다시 시작</li><li>mongod –auth –port 27017 –dbpath /data/db</li></ul></li><li><p>cmd 창을 2개 키고  첫 cmd 창은 mongod를 입력하고 그대로 서버를 켜준다</p></li><li><p>나머지 1개의 창에는 mogod를 입력하고 시작한다. ()접속)</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;window에-mongodb설치하기&quot;&gt;&lt;a href=&quot;#window에-mongodb설치하기&quot; class=&quot;headerlink&quot; title=&quot;window에 mongodb설치하기&quot;&gt;&lt;/a&gt;window에 mongodb설치하기&lt;/h1&gt;&lt;ol&gt;
+
+      
+    
+    </summary>
+    
+      <category term="database" scheme="https://jinhyunly.github.io/categories/database/"/>
+    
+      <category term="mongoDB" scheme="https://jinhyunly.github.io/categories/database/mongoDB/"/>
+    
+    
+      <category term="database" scheme="https://jinhyunly.github.io/tags/database/"/>
+    
+      <category term="mongoDB" scheme="https://jinhyunly.github.io/tags/mongoDB/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SpringFramework</title>
     <link href="https://jinhyunly.github.io/2018/02/08/springFramework/"/>
     <id>https://jinhyunly.github.io/2018/02/08/springFramework/</id>
     <published>2018-02-08T12:29:23.000Z</published>
-    <updated>2018-02-08T12:31:18.124Z</updated>
+    <updated>2018-02-08T13:00:41.088Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Spring-framework"><a href="#Spring-framework" class="headerlink" title="Spring framework"></a>Spring framework</h3><hr><blockquote><p>프레임워크란, 특정한 목적에 맞게 프로그램이을 쉽게 하기 위한 약속입니다.<br><br>자바 언어를 기반으로 다양한 어플리케이션을 제작하기 위한 약속된 프로그래밍 틀 이다.<br><br>스프링의 경우 톰캣을 이용할수 있다. (접근하기 쉽다)</p><ul><li>eclipse  / help / market place 에서 STS 검색후 install</li></ul></blockquote><h3 id="DI-Dependency-Injection-의존성-주입-와-IOC-컨테이너-Spring"><a href="#DI-Dependency-Injection-의존성-주입-와-IOC-컨테이너-Spring" class="headerlink" title="DI(Dependency Injection 의존성 주입) 와 IOC 컨테이너(Spring)"></a>DI(Dependency Injection 의존성 주입) 와 IOC 컨테이너(Spring)</h3><hr><blockquote><p>스프링이란 부품을 생성하고 조립하는 라이브러리 집합체라고 할 수 있다.</p><ul><li><p>AOP(Aspect Oriented Programming)<br>공통기능을 모든 모듈에 적용하기 위한 방법으로 상속을 통한 방법이 있다.<br>상속도 좋은 방법이지만 java에서 다중상속이 불가하므로 AOP방법으로 한다.<br>-공통기능을 분리시켜놓고 공통기능을 필요로 하는 핵심기능들에서 사용하는방식(공통기능을 재활용하는 방식)<br></p></li><li><p>AOP용어<br>-Aspect: 공통기능</p></li><li><ul><li>Advice: Aspect의 기능자체<br>-Joinpoint: Advice를 적용해야 되는 부분(ex 필드, 메소드) (스프링에서는 메소드만 해당)<br>-Pointcut: Joinpoint의 부분으로 실제로 Advice가 적용된 부분<br>-Weaving: Advice를 핵심 기능에 적용 하는 행위</li></ul></li></ul></blockquote><h3 id="스프링에서-AOP-구현-방법-proxy를-이용한다"><a href="#스프링에서-AOP-구현-방법-proxy를-이용한다" class="headerlink" title="스프링에서 AOP 구현 방법: proxy를 이용한다"></a>스프링에서 AOP 구현 방법: proxy를 이용한다</h3><blockquote><p>스프링에서 AOP 구현 방식 : XML스키마 기반으로 구현,  @Aspect 어노테이션 기반으로 구현<br><br>Advice 종류</p><ul><li><aop:before> : 메소드 실행전에 advice 실행<br><aop:after_returning> : 정상적으로 메소드 실행 후에 advice 실행<br><aop:throwing> : 메소드실행중 exception 발생시 advice  실행<br><aop:after> : 메소드 실행중 exception 이 발생하여도 advice 실행</aop:after></aop:throwing></aop:after_returning></aop:before></li><li><aop:around> : 메서드 실행 전/후 및 exception 발생 시 advice 실행</aop:around></li></ul></blockquote><h3 id="AspectJ-Pointcut-표현식"><a href="#AspectJ-Pointcut-표현식" class="headerlink" title="AspectJ Pointcut 표현식"></a>AspectJ Pointcut 표현식</h3><blockquote><p>pointcut을 지정할 때 사용하는 표현식으로 AspectJ 문법을 사용</p><p>* : 모든<br>. : 현재<br>.. : 0개 이상</p></blockquote><h3 id="스프링-MVC-개요"><a href="#스프링-MVC-개요" class="headerlink" title="스프링 MVC 개요"></a>스프링 MVC 개요</h3><blockquote><p>Spring이 웹 프레임워크로서 우수성이 인정되었기 때문에 유명해졌다<br><br>@Validator를 이용한 검증<br><br>폼에서 전달되는 데이터를 컴맨드 객체에 담아 컨트롤 객체에 전달한다.<br>이때 커멘드 객체의 유효성을 검사 할 수 있다.<br>참고로 javascript를 이용하는 것은 클라이언트에서 검사하는 방법이고<br>지금 하는 Validator 인터페이스를 이용하는 방법은 서버에서 검사하는 방법이다.</p></blockquote>]]></content>
     
@@ -43,34 +73,6 @@
       <category term="web" scheme="https://jinhyunly.github.io/tags/web/"/>
     
       <category term="spring" scheme="https://jinhyunly.github.io/tags/spring/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>test3</title>
-    <link href="https://jinhyunly.github.io/2018/02/08/test3/"/>
-    <id>https://jinhyunly.github.io/2018/02/08/test3/</id>
-    <published>2018-02-08T10:52:58.000Z</published>
-    <updated>2018-02-08T10:55:00.128Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="node-js"><a href="#node-js" class="headerlink" title="node.js"></a>node.js</h1><p>asdfdassdfa</p><h1 id="javascript"><a href="#javascript" class="headerlink" title="javascript"></a>javascript</h1><p>asdfasdfsdf</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;node-js&quot;&gt;&lt;a href=&quot;#node-js&quot; class=&quot;headerlink&quot; title=&quot;node.js&quot;&gt;&lt;/a&gt;node.js&lt;/h1&gt;&lt;p&gt;asdfdassdfa&lt;/p&gt;
-&lt;h1 id=&quot;javascript&quot;&gt;&lt;a href=&quot;#java
-      
-    
-    </summary>
-    
-      <category term="javascript" scheme="https://jinhyunly.github.io/categories/javascript/"/>
-    
-    
-      <category term="javascript" scheme="https://jinhyunly.github.io/tags/javascript/"/>
-    
-      <category term="node.js" scheme="https://jinhyunly.github.io/tags/node-js/"/>
     
   </entry>
   
@@ -126,27 +128,6 @@
     
     
       <category term="test" scheme="https://jinhyunly.github.io/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://jinhyunly.github.io/2018/02/08/hello-world/"/>
-    <id>https://jinhyunly.github.io/2018/02/08/hello-world/</id>
-    <published>2018-02-08T08:59:33.213Z</published>
-    <updated>2018-02-08T11:35:11.980Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
     
   </entry>
   
