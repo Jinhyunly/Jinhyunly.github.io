@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jinhyunly.github.io/"/>
-  <updated>2018-02-08T09:33:43.317Z</updated>
+  <updated>2018-02-08T10:55:00.128Z</updated>
   <id>https://jinhyunly.github.io/</id>
   
   <author>
@@ -15,6 +15,98 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test3</title>
+    <link href="https://jinhyunly.github.io/2018/02/08/test3/"/>
+    <id>https://jinhyunly.github.io/2018/02/08/test3/</id>
+    <published>2018-02-08T10:52:58.000Z</published>
+    <updated>2018-02-08T10:55:00.128Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="node-js"><a href="#node-js" class="headerlink" title="node.js"></a>node.js</h1><p>asdfdassdfa</p><h1 id="javascript"><a href="#javascript" class="headerlink" title="javascript"></a>javascript</h1><p>asdfasdfsdf</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;node-js&quot;&gt;&lt;a href=&quot;#node-js&quot; class=&quot;headerlink&quot; title=&quot;node.js&quot;&gt;&lt;/a&gt;node.js&lt;/h1&gt;&lt;p&gt;asdfdassdfa&lt;/p&gt;
+&lt;h1 id=&quot;javascript&quot;&gt;&lt;a href=&quot;#java
+      
+    
+    </summary>
+    
+      <category term="javascript" scheme="https://jinhyunly.github.io/categories/javascript/"/>
+    
+    
+      <category term="javascript" scheme="https://jinhyunly.github.io/tags/javascript/"/>
+    
+      <category term="node.js" scheme="https://jinhyunly.github.io/tags/node-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test2</title>
+    <link href="https://jinhyunly.github.io/2018/02/08/test2/"/>
+    <id>https://jinhyunly.github.io/2018/02/08/test2/</id>
+    <published>2018-02-08T10:52:54.000Z</published>
+    <updated>2018-02-08T10:55:07.389Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="laravel"><a href="#laravel" class="headerlink" title="laravel"></a>laravel</h1><p>hhlkajsdf</p><h1 id="web"><a href="#web" class="headerlink" title="web"></a>web</h1><p>asdfasdfsdf</p><figure class="highlight php"><figcaption><span>1.php</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">Class</span> <span class="title">PHP</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;laravel&quot;&gt;&lt;a href=&quot;#laravel&quot; class=&quot;headerlink&quot; title=&quot;laravel&quot;&gt;&lt;/a&gt;laravel&lt;/h1&gt;&lt;p&gt;hhlkajsdf&lt;/p&gt;
+&lt;h1 id=&quot;web&quot;&gt;&lt;a href=&quot;#web&quot; class=&quot;h
+      
+    
+    </summary>
+    
+      <category term="web" scheme="https://jinhyunly.github.io/categories/web/"/>
+    
+      <category term="php" scheme="https://jinhyunly.github.io/categories/web/php/"/>
+    
+    
+      <category term="web" scheme="https://jinhyunly.github.io/tags/web/"/>
+    
+      <category term="php" scheme="https://jinhyunly.github.io/tags/php/"/>
+    
+      <category term="laravel" scheme="https://jinhyunly.github.io/tags/laravel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://jinhyunly.github.io/2018/02/08/test/"/>
+    <id>https://jinhyunly.github.io/2018/02/08/test/</id>
+    <published>2018-02-08T10:52:07.000Z</published>
+    <updated>2018-02-08T10:55:10.120Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="java"><a href="#java" class="headerlink" title="java"></a>java</h1><p>Hello</p><h1 id="spring"><a href="#spring" class="headerlink" title="spring"></a>spring</h1><p>Hello</p><h1 id="asdf-lkjasd"><a href="#asdf-lkjasd" class="headerlink" title="asdf;lkjasd"></a>asdf;lkjasd</h1><p>asdfdassdfa</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;java&quot;&gt;&lt;a href=&quot;#java&quot; class=&quot;headerlink&quot; title=&quot;java&quot;&gt;&lt;/a&gt;java&lt;/h1&gt;&lt;p&gt;Hello&lt;/p&gt;
+&lt;h1 id=&quot;spring&quot;&gt;&lt;a href=&quot;#spring&quot; class=&quot;headerlink&quot;
+      
+    
+    </summary>
+    
+      <category term="web" scheme="https://jinhyunly.github.io/categories/web/"/>
+    
+      <category term="java" scheme="https://jinhyunly.github.io/categories/web/java/"/>
+    
+    
+      <category term="web" scheme="https://jinhyunly.github.io/tags/web/"/>
+    
+      <category term="java" scheme="https://jinhyunly.github.io/tags/java/"/>
+    
+      <category term="spring" scheme="https://jinhyunly.github.io/tags/spring/"/>
+    
+  </entry>
   
   <entry>
     <title>first_post</title>
