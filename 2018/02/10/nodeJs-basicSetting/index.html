@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    <title>nodeJs_basicSetting | Jinhyunly page | Computer Scientist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="nodeJs">
+    <meta name="description" content="NodeJs란  Javascript 엔진으로 빌드된 Javascript 런타임이다.  npm이란  Node Package Modules의 약자다. Node.js에서 사용가능한 모듈들을 패키지화시켜 모아놓은 것이다npm&amp;lt;명령어&amp;gt;npm help : 메인 설명npm &amp;lt;명령어&amp;gt; -h : 명령어에 대한 설명npm list 또는 npm ls :">
+<meta name="keywords" content="nodeJs">
+<meta property="og:type" content="article">
+<meta property="og:title" content="nodeJs_basicSetting">
+<meta property="og:url" content="https://jinhyunly.github.io/2018/02/10/nodeJs-basicSetting/index.html">
+<meta property="og:site_name" content="Jinhyunly page">
+<meta property="og:description" content="NodeJs란  Javascript 엔진으로 빌드된 Javascript 런타임이다.  npm이란  Node Package Modules의 약자다. Node.js에서 사용가능한 모듈들을 패키지화시켜 모아놓은 것이다npm&amp;lt;명령어&amp;gt;npm help : 메인 설명npm &amp;lt;명령어&amp;gt; -h : 명령어에 대한 설명npm list 또는 npm ls :">
+<meta property="og:locale" content="en.yml">
+<meta property="og:updated_time" content="2018-02-10T04:52:45.388Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="nodeJs_basicSetting">
+<meta name="twitter:description" content="NodeJs란  Javascript 엔진으로 빌드된 Javascript 런타임이다.  npm이란  Node Package Modules의 약자다. Node.js에서 사용가능한 모듈들을 패키지화시켜 모아놓은 것이다npm&amp;lt;명령어&amp;gt;npm help : 메인 설명npm &amp;lt;명령어&amp;gt; -h : 명령어에 대한 설명npm list 또는 npm ls :">
+    
+        <link rel="alternate" type="application/atom+xml" title="Jinhyunly page" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    
+
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/avatar.jpg">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">jinhyun</h5>
+          <a href="mailto:dbdbddipp@gmail.com" title="dbdbddipp@gmail.com" class="mail">dbdbddipp@gmail.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                Home
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/profile"  >
+                <i class="icon icon-lg icon-user-circle"></i>
+                Profile
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                Archives
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                Tags
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                Categories
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://github.com/Jinhyunly" target="_blank" >
+                <i class="icon icon-lg icon-github"></i>
+                Github
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">nodeJs_basicSetting</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="Search">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">nodeJs_basicSetting</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2018-02-10T04:36:13.000Z" itemprop="datePublished" class="page-time">
+  2018-02-10
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/nodeJs/">nodeJs</a></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#NodeJs란"><span class="post-toc-number">1.</span> <span class="post-toc-text">NodeJs란</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#npm이란"><span class="post-toc-number">2.</span> <span class="post-toc-text">npm이란</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#express란"><span class="post-toc-number">3.</span> <span class="post-toc-text">express란</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#node-설치와-기본적으로-필요한-모듈을-다운받자"><span class="post-toc-number">4.</span> <span class="post-toc-text">node 설치와 기본적으로 필요한 모듈을 다운받자</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#기본적인-app-js-gt-서버구동"><span class="post-toc-number">5.</span> <span class="post-toc-text">기본적인 app.js    -&gt;   서버구동</span></a></li></ol>
+        </nav>
+    </aside>
+
+
+<article id="post-nodeJs-basicSetting"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">nodeJs_basicSetting</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2018-02-10 13:36:13" datetime="2018-02-10T04:36:13.000Z"  itemprop="datePublished">2018-02-10</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/nodeJs/">nodeJs</a></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h3 id="NodeJs란"><a href="#NodeJs란" class="headerlink" title="NodeJs란"></a>NodeJs란</h3><hr>
+<blockquote>
+<p>Javascript 엔진으로 빌드된 Javascript 런타임이다.</p>
+</blockquote>
+<h3 id="npm이란"><a href="#npm이란" class="headerlink" title="npm이란"></a>npm이란</h3><hr>
+<blockquote>
+<p>Node Package Modules의 약자다. Node.js에서 사용가능한 모듈들을 패키지화시켜 모아놓은 것이다<br><br>npm&lt;명령어&gt;<br>npm help : 메인 설명<br>npm &lt;명령어&gt; -h : 명령어에 대한 설명<br>npm list 또는 npm ls : npm에서 관리되는 모듈 리스트<br>npm view &lt;패키지명&gt; : 모듈의 버전별 상세정보<br>npm install &lt;패키지명&gt; : 모듈을 찾아서 설치<br>npm list installed : 설치되어 있는 모듈의 목록을 봄<br>npm update &lt;패키지명&gt; : 설치된 패키지를 최신버전으로 업데이트</p>
+</blockquote>
+<h3 id="express란"><a href="#express란" class="headerlink" title="express란"></a>express란</h3><blockquote>
+<p>Nodejs 확장 모듈로서 서버사이드 웹프레임워크이다.<br>view engine으로는 총 5가지를 지원한다.<br>-Haml<br>-Jade<br>-EJS<br>-CoffeKup<br>-jQuery Templates</p>
+</blockquote>
+<h3 id="node-설치와-기본적으로-필요한-모듈을-다운받자"><a href="#node-설치와-기본적으로-필요한-모듈을-다운받자" class="headerlink" title="node 설치와 기본적으로 필요한 모듈을 다운받자"></a>node 설치와 기본적으로 필요한 모듈을 다운받자</h3><blockquote>
+<p>packge.json<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;name&quot;: &quot;nodeserver&quot;,</span><br><span class="line">  &quot;version&quot;: &quot;1.0.0&quot;,</span><br><span class="line">  &quot;description&quot;: &quot;nodeserver test&quot;,</span><br><span class="line">  &quot;main&quot;: &quot;index.js&quot;,</span><br><span class="line">  &quot;scripts&quot;: &#123;</span><br><span class="line">    &quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;</span><br><span class="line">  &#125;,</span><br><span class="line">  &quot;author&quot;: &quot;&quot;,</span><br><span class="line">  &quot;license&quot;: &quot;ISC&quot;,</span><br><span class="line">  &quot;dependencies&quot;: &#123;</span><br><span class="line">    &quot;body-parser&quot;: &quot;^1.18.2&quot;,</span><br><span class="line">    &quot;ejs&quot;: &quot;^2.5.7&quot;,</span><br><span class="line">    &quot;express&quot;: &quot;^4.16.2&quot;,</span><br><span class="line">    &quot;mysql&quot;: &quot;^2.15.0&quot;,</span><br><span class="line">    &quot;nodemon&quot;: &quot;^1.14.3&quot;</span><br><span class="line">  &#125;,</span><br><span class="line">  &quot;devDependencies&quot;: &#123;</span><br><span class="line">    &quot;connect-flash&quot;: &quot;^0.1.1&quot;,</span><br><span class="line">    &quot;express-session&quot;: &quot;^1.15.6&quot;,</span><br><span class="line">    &quot;passport&quot;: &quot;^0.4.0&quot;,</span><br><span class="line">    &quot;passport-local&quot;: &quot;^1.0.0&quot;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h3 id="기본적인-app-js-gt-서버구동"><a href="#기본적인-app-js-gt-서버구동" class="headerlink" title="기본적인 app.js    -&gt;   서버구동"></a>기본적인 app.js    -&gt;   서버구동</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">var express = require(&apos;express&apos;)</span><br><span class="line">var bodyParser = require(&apos;body-parser&apos;)</span><br><span class="line">var app = express()</span><br><span class="line">var router = require(&apos;./router/index&apos;)</span><br><span class="line">var passport = require(&apos;passport&apos;)</span><br><span class="line">var LocalStrategy = require(&apos;passport-local&apos;).Strategy</span><br><span class="line">var session = require(&apos;express-session&apos;)</span><br><span class="line">var flash = require(&apos;connect-flash&apos;) //메세지를 쉽게 전달함</span><br><span class="line"></span><br><span class="line">app.listen(3000, function()&#123; //비동기로 동작</span><br><span class="line">  console.log(&quot;start! express server on port 3000!&quot;);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">//미들웨어 정의</span><br><span class="line">app.use(express.static(&apos;public&apos;)) //express static함수에 public이라는 디렉토리를 등록</span><br><span class="line">app.use(bodyParser.json()) // request body 에 오는 데이터를 json형식으로 변환</span><br><span class="line">app.use(bodyParser.urlencoded(&#123;extended:true&#125;))</span><br><span class="line">// extended: true  -&gt; url인코딩이 계속적용될지 1번만 적용할지 묻는것</span><br><span class="line">app.set(&apos;view engine&apos;, &apos;ejs&apos;)</span><br><span class="line"></span><br><span class="line">app.use(session(&#123;</span><br><span class="line">  secret: &apos;keyboard cat&apos;,</span><br><span class="line">  resave: false,</span><br><span class="line">  saveUninitialized: true</span><br><span class="line">&#125;))</span><br><span class="line">app.use(passport.initialize())</span><br><span class="line">app.use(passport.session())</span><br><span class="line">app.use(flash())</span><br><span class="line"></span><br><span class="line">app.use(router)</span><br></pre></td></tr></table></figure>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    
+    <div class="content">
+        
+<span class="post-time">
+    Last updated: <time datetime="2018-02-10T04:52:45.388Z" itemprop="dateUpdated">2018-02-10 13:52:45</time>
+</span><br>
+
+
+        
+        URL：<a href="/2018/02/10/nodeJs-basicSetting/" target="_blank" rel="external">https://jinhyunly.github.io/2018/02/10/nodeJs-basicSetting/</a>
+        
+    </div>
+    
+    <footer>
+        <a href="https://jinhyunly.github.io">
+            <img src="/img/avatar.jpg" alt="jinhyun">
+            jinhyun
+        </a>
+    </footer>
+</blockquote>
+
+        
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodeJs/">nodeJs</a></li></ul>
+
+
+            
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/2018/02/08/mongoDB-install/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">mongoDB_install</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+<section class="comments" id="comments">
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_shortname = 'jinhyunLee';
+    lazyScripts.push('//' + disqus_shortname + '.disqus.com/embed.js')
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        UserView：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        PageView：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>This blog is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p><span>jinhyun &copy; 2018</span>
+            <span>
+                
+                Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a>
+            </span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: false, REWARD: false };
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>

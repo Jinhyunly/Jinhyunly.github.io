@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jinhyunly.github.io/"/>
-  <updated>2018-02-08T13:32:21.498Z</updated>
+  <updated>2018-02-10T04:52:45.388Z</updated>
   <id>https://jinhyunly.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nodeJs_basicSetting</title>
+    <link href="https://jinhyunly.github.io/2018/02/10/nodeJs-basicSetting/"/>
+    <id>https://jinhyunly.github.io/2018/02/10/nodeJs-basicSetting/</id>
+    <published>2018-02-10T04:36:13.000Z</published>
+    <updated>2018-02-10T04:52:45.388Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="NodeJs란"><a href="#NodeJs란" class="headerlink" title="NodeJs란"></a>NodeJs란</h3><hr><blockquote><p>Javascript 엔진으로 빌드된 Javascript 런타임이다.</p></blockquote><h3 id="npm이란"><a href="#npm이란" class="headerlink" title="npm이란"></a>npm이란</h3><hr><blockquote><p>Node Package Modules의 약자다. Node.js에서 사용가능한 모듈들을 패키지화시켜 모아놓은 것이다<br><br>npm&lt;명령어&gt;<br>npm help : 메인 설명<br>npm &lt;명령어&gt; -h : 명령어에 대한 설명<br>npm list 또는 npm ls : npm에서 관리되는 모듈 리스트<br>npm view &lt;패키지명&gt; : 모듈의 버전별 상세정보<br>npm install &lt;패키지명&gt; : 모듈을 찾아서 설치<br>npm list installed : 설치되어 있는 모듈의 목록을 봄<br>npm update &lt;패키지명&gt; : 설치된 패키지를 최신버전으로 업데이트</p></blockquote><h3 id="express란"><a href="#express란" class="headerlink" title="express란"></a>express란</h3><blockquote><p>Nodejs 확장 모듈로서 서버사이드 웹프레임워크이다.<br>view engine으로는 총 5가지를 지원한다.<br>-Haml<br>-Jade<br>-EJS<br>-CoffeKup<br>-jQuery Templates</p></blockquote><h3 id="node-설치와-기본적으로-필요한-모듈을-다운받자"><a href="#node-설치와-기본적으로-필요한-모듈을-다운받자" class="headerlink" title="node 설치와 기본적으로 필요한 모듈을 다운받자"></a>node 설치와 기본적으로 필요한 모듈을 다운받자</h3><blockquote><p>packge.json<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;name&quot;: &quot;nodeserver&quot;,</span><br><span class="line">  &quot;version&quot;: &quot;1.0.0&quot;,</span><br><span class="line">  &quot;description&quot;: &quot;nodeserver test&quot;,</span><br><span class="line">  &quot;main&quot;: &quot;index.js&quot;,</span><br><span class="line">  &quot;scripts&quot;: &#123;</span><br><span class="line">    &quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;</span><br><span class="line">  &#125;,</span><br><span class="line">  &quot;author&quot;: &quot;&quot;,</span><br><span class="line">  &quot;license&quot;: &quot;ISC&quot;,</span><br><span class="line">  &quot;dependencies&quot;: &#123;</span><br><span class="line">    &quot;body-parser&quot;: &quot;^1.18.2&quot;,</span><br><span class="line">    &quot;ejs&quot;: &quot;^2.5.7&quot;,</span><br><span class="line">    &quot;express&quot;: &quot;^4.16.2&quot;,</span><br><span class="line">    &quot;mysql&quot;: &quot;^2.15.0&quot;,</span><br><span class="line">    &quot;nodemon&quot;: &quot;^1.14.3&quot;</span><br><span class="line">  &#125;,</span><br><span class="line">  &quot;devDependencies&quot;: &#123;</span><br><span class="line">    &quot;connect-flash&quot;: &quot;^0.1.1&quot;,</span><br><span class="line">    &quot;express-session&quot;: &quot;^1.15.6&quot;,</span><br><span class="line">    &quot;passport&quot;: &quot;^0.4.0&quot;,</span><br><span class="line">    &quot;passport-local&quot;: &quot;^1.0.0&quot;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p></blockquote><h3 id="기본적인-app-js-gt-서버구동"><a href="#기본적인-app-js-gt-서버구동" class="headerlink" title="기본적인 app.js    -&gt;   서버구동"></a>기본적인 app.js    -&gt;   서버구동</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">var express = require(&apos;express&apos;)</span><br><span class="line">var bodyParser = require(&apos;body-parser&apos;)</span><br><span class="line">var app = express()</span><br><span class="line">var router = require(&apos;./router/index&apos;)</span><br><span class="line">var passport = require(&apos;passport&apos;)</span><br><span class="line">var LocalStrategy = require(&apos;passport-local&apos;).Strategy</span><br><span class="line">var session = require(&apos;express-session&apos;)</span><br><span class="line">var flash = require(&apos;connect-flash&apos;) //메세지를 쉽게 전달함</span><br><span class="line"></span><br><span class="line">app.listen(3000, function()&#123; //비동기로 동작</span><br><span class="line">  console.log(&quot;start! express server on port 3000!&quot;);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">//미들웨어 정의</span><br><span class="line">app.use(express.static(&apos;public&apos;)) //express static함수에 public이라는 디렉토리를 등록</span><br><span class="line">app.use(bodyParser.json()) // request body 에 오는 데이터를 json형식으로 변환</span><br><span class="line">app.use(bodyParser.urlencoded(&#123;extended:true&#125;))</span><br><span class="line">// extended: true  -&gt; url인코딩이 계속적용될지 1번만 적용할지 묻는것</span><br><span class="line">app.set(&apos;view engine&apos;, &apos;ejs&apos;)</span><br><span class="line"></span><br><span class="line">app.use(session(&#123;</span><br><span class="line">  secret: &apos;keyboard cat&apos;,</span><br><span class="line">  resave: false,</span><br><span class="line">  saveUninitialized: true</span><br><span class="line">&#125;))</span><br><span class="line">app.use(passport.initialize())</span><br><span class="line">app.use(passport.session())</span><br><span class="line">app.use(flash())</span><br><span class="line"></span><br><span class="line">app.use(router)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;NodeJs란&quot;&gt;&lt;a href=&quot;#NodeJs란&quot; class=&quot;headerlink&quot; title=&quot;NodeJs란&quot;&gt;&lt;/a&gt;NodeJs란&lt;/h3&gt;&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Javascript 엔진으로 빌드된 Javascript 런
+      
+    
+    </summary>
+    
+      <category term="nodeJs" scheme="https://jinhyunly.github.io/categories/nodeJs/"/>
+    
+    
+      <category term="nodeJs" scheme="https://jinhyunly.github.io/tags/nodeJs/"/>
+    
+  </entry>
   
   <entry>
     <title>mongoDB_install</title>
