@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jinhyunly.github.io/"/>
-  <updated>2018-02-10T04:57:18.111Z</updated>
+  <updated>2018-02-12T02:54:18.420Z</updated>
   <id>https://jinhyunly.github.io/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>firebase</title>
+    <link href="https://jinhyunly.github.io/2018/02/12/firebase/"/>
+    <id>https://jinhyunly.github.io/2018/02/12/firebase/</id>
+    <published>2018-02-12T02:49:51.000Z</published>
+    <updated>2018-02-12T02:54:18.420Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="SPA-Single-Page-Application-란"><a href="#SPA-Single-Page-Application-란" class="headerlink" title="SPA(Single Page Application)란?"></a>SPA(Single Page Application)란?</h3><blockquote><p>단일 페이지 웹 어플리케이션이며 첫 페이지 로딩 후 갱신 없이 모든 서비스가 한화면에서 이루어지는 웹 사이트를 일컫는다.</p></blockquote><h3 id="Firebase-설치"><a href="#Firebase-설치" class="headerlink" title="Firebase 설치"></a>Firebase 설치</h3><blockquote><p><a href="https://nodejs.org/ko/" target="_blank" rel="noopener">https://nodejs.org/ko/</a> <br><br>firebase 설치를 위한 nodejs 설치</p></blockquote><h3 id="Firebase-설치-환경설정"><a href="#Firebase-설치-환경설정" class="headerlink" title="Firebase 설치 환경설정"></a>Firebase 설치 환경설정</h3><blockquote><p>1.콘솔창을 키고 npm install firebase-tool -g 입력<br>2.memoWeb이라는 디렉토리를 만들고 디렉토리 경로까지 콘솔창으로 이동<br>3.firebase init<br>4.Are you ready to proceed? (Y/n) -&gt;  y라고 입력<br>5.Which Firebase CLI features do you want to setup for this folder?<br><br>Press Space to select features, then Enter to confirm your choices.<br>6.()Hosting: Configure and deploy Firebase Hosting sites 로 커서이동후 스페이스로 선택후 엔터<br>7.What do you want to use as your public directory? public<br>8.Configure as a single-page app (rewrite all urls to /index.html)? (y/N) -&gt; y 입력<br>9.현재 디렉토리 경로에서 firebase serve 라고 입력하면 서버가 구동<br>10.웹 브라우저에서 <a href="http://localhost:5000" target="_blank" rel="noopener">http://localhost:5000</a> 이라고 입력하면 hosting 화면이 나온다.</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;SPA-Single-Page-Application-란&quot;&gt;&lt;a href=&quot;#SPA-Single-Page-Application-란&quot; class=&quot;headerlink&quot; title=&quot;SPA(Single Page Application)란?&quot;&gt;&lt;/
+      
+    
+    </summary>
+    
+      <category term="web" scheme="https://jinhyunly.github.io/categories/web/"/>
+    
+      <category term="mobile" scheme="https://jinhyunly.github.io/categories/web/mobile/"/>
+    
+      <category term="firebase" scheme="https://jinhyunly.github.io/categories/web/mobile/firebase/"/>
+    
+    
+      <category term="web" scheme="https://jinhyunly.github.io/tags/web/"/>
+    
+      <category term="mobile" scheme="https://jinhyunly.github.io/tags/mobile/"/>
+    
+      <category term="firebase" scheme="https://jinhyunly.github.io/tags/firebase/"/>
+    
+  </entry>
   
   <entry>
     <title>nodeJs_basicSetting</title>
