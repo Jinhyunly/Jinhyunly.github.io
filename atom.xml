@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jinhyunly.github.io/"/>
-  <updated>2018-02-16T16:21:52.187Z</updated>
+  <updated>2018-02-20T19:17:20.807Z</updated>
   <id>https://jinhyunly.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git_tutorial</title>
+    <link href="https://jinhyunly.github.io/2018/02/21/git-tutorial/"/>
+    <id>https://jinhyunly.github.io/2018/02/21/git-tutorial/</id>
+    <published>2018-02-20T19:14:22.000Z</published>
+    <updated>2018-02-20T19:17:20.807Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git-초간단-설명서"><a href="#git-초간단-설명서" class="headerlink" title="git 초간단 설명서"></a>git 초간단 설명서</h1><blockquote><p>git init<br>새로운 저장소 만들기<br><br>git add .<br>변경된 파일 전체 추가<br><br>git status -&gt; new file들이 생성된것을 볼수있다<br><br>git commit -m “설명”<br>변경 내용 확정<br><br>git remote add origin “주소”<br>원격 서버에 연결하기<br><br>git push -u origin master<br>원격 서버로 올리기</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;git-초간단-설명서&quot;&gt;&lt;a href=&quot;#git-초간단-설명서&quot; class=&quot;headerlink&quot; title=&quot;git 초간단 설명서&quot;&gt;&lt;/a&gt;git 초간단 설명서&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;git init&lt;br&gt;새로운 저장소 만
+      
+    
+    </summary>
+    
+      <category term="git" scheme="https://jinhyunly.github.io/categories/git/"/>
+    
+    
+      <category term="git" scheme="https://jinhyunly.github.io/tags/git/"/>
+    
+  </entry>
   
   <entry>
     <title>nodeJs_restAPI</title>
