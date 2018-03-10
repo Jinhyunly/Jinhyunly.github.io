@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jinhyunly.github.io/"/>
-  <updated>2018-02-20T19:17:20.807Z</updated>
+  <updated>2018-03-10T20:16:25.696Z</updated>
   <id>https://jinhyunly.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTML_Introduction</title>
+    <link href="https://jinhyunly.github.io/2018/03/11/HTML-Introduction/"/>
+    <id>https://jinhyunly.github.io/2018/03/11/HTML-Introduction/</id>
+    <published>2018-03-10T19:46:58.000Z</published>
+    <updated>2018-03-10T20:16:25.696Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><blockquote><p>HTML은 웹페이지를 기술하기 위한 마크업 언어이다.<br>조금 더 자세히 말하면 웹페이지의 내용(content)과 구조(structure)을 담당하는 언어로써<br>HTML 태그를 통해 정보를 구조화 하는 것이다.</p></blockquote><h3 id="시멘틱-태그-Semeantics"><a href="#시멘틱-태그-Semeantics" class="headerlink" title="시멘틱 태그(Semeantics)"></a>시멘틱 태그(Semeantics)</h3><blockquote><p>HTML 요소의 의미를 명확히 설명하는 시맨틱 태그를 도입하여 브라우저, 검색엔진, 개발자<br>모두에게 콘텐츠의 의미를 명확히 설명할수 있다. 이를 통해 HTML 요소의 의미를 명확히 해석하고<br>그 데이터를 활용할 수 있는 시멘틱 웹을 실현할 수 있다.</p></blockquote><h3 id="head"><a href="#head" class="headerlink" title="head"></a>head</h3><blockquote><p>head태그 사이에는 document title, 외부파일 참조, metadata의 설정 등이<br>위치하며 이 정보들은 브라우저에 표시되지 않는다.</p></blockquote><h3 id="body"><a href="#body" class="headerlink" title="body"></a>body</h3><blockquote><p>웹브라우저에 출력되는 모든 요소는 body태그 사이에 위치한다.</p></blockquote><h3 id="tip"><a href="#tip" class="headerlink" title="tip)"></a>tip)</h3><blockquote><p>HTML document는 .html 확장자를 갖는 순수한 텍스트 파일이다. 따라서<br>메모장 등으로도 편집할수 있으나 다양한 편의 기능을 제공하는 editor 또는<br>IDE(Integrated Development Environment)를 사용하는 것이 일반적이다.<br>대표적인 editor 또는 IDE는 vsCode(Visual Studio Code), WebStorm, Atom, Sublime text등이 있다.</p></blockquote><h3 id="HTML-요소-Element"><a href="#HTML-요소-Element" class="headerlink" title="HTML 요소(Element)"></a>HTML 요소(Element)</h3><blockquote><p>시작태그와 종료태그 그리고 태그 사이에 위치한 content로 구성된다<br><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;p&gt; Hello &lt;/p&gt;</span><br></pre></td></tr></table></figure></p><p>태그는 대소문자를 구별하지 않으나 w3c 에서 소문자를 추천하고 있으므로 소문자로 한다</p></blockquote><h3 id="요소의-중첩"><a href="#요소의-중첩" class="headerlink" title="요소의 중첩"></a>요소의 중첩</h3><blockquote><p>태그안의 태그<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;body&gt;</span><br><span class="line">&lt;h1&gt;안녕&lt;/h1&gt;</span><br><span class="line">&lt;p&gt;반갑&lt;/p&gt;</span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure></p><p>body요소는 h1, p요소를 포함한다. 이 중첩 관계(부자관계)로 웹페이지의 구조를 표현한다.</p></blockquote><h3 id="빈-요소-Empty-Element"><a href="#빈-요소-Empty-Element" class="headerlink" title="빈 요소(Empty Element)"></a>빈 요소(Empty Element)</h3><blockquote><p>content를 가질수 없는 요소를 빈 요소라 한다. content가 없으며 attribute만을 가질수 있다.<br><br>빈요소중 대표적인 요소는 br, hr, img, input, link, meta 등이 있다.</p></blockquote><h3 id="어트리뷰트-attribute"><a href="#어트리뷰트-attribute" class="headerlink" title="어트리뷰트(attribute)"></a>어트리뷰트(attribute)</h3><blockquote><p>어트리뷰트란 요소의 성질, 특징을 정의하는 명세이다. 어트리뷰트를 가질수 있으며 어트리뷰트는<br>요소에 추가적 정보(예를 들어 이미지 파일의 경로, 크기 등)를 제공한다. 어트리뷰트는 시작태그에<br>위치해야 하며 이름과 값의 쌍을 이룬다. (e.g name=”value”)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;img src=&quot;html.png&quot;&gt;</span><br></pre></td></tr></table></figure></p><p>src가 Attribute Name이 되고 “”값이 Attribute Value 가 된다</p></blockquote><h3 id="글로벌-어트리뷰트-HTML-Global-Attribute"><a href="#글로벌-어트리뷰트-HTML-Global-Attribute" class="headerlink" title="글로벌 어트리뷰트(HTML Global Attribute)"></a>글로벌 어트리뷰트(HTML Global Attribute)</h3><blockquote><p>글로벌 어트리뷰트는 모든 HTML 요소가 공통으로 사용할 수 있는 어트리 뷰트다.<br>몇몇 요소에는 효과가 적용 되지 않을 수 있지만, 글로벌 어트리뷰트는 대체로<br>모든 요소에 사용될 수 있다.<br><br><br>대표적인 글로벌 어트리뷰트는<br><br></p><ul><li>id :유일한 식별자(id)를 요소에 지정한다. 중복 지정이 불가하다.</li><li>class :스타일시트에 정의된 class를 요소에 지정한다. 중복 지정이 가능하다.</li><li>hidden :css의 hidden과는 다르게 의미상으로도 브라우저에 노출되지 않게 된다.</li><li>lang :지정된 요소의 언어를 지정한다. 검색엔진의 크롤링 시 웹페이지의 언어를 인식할 수 있게 한다.</li><li>style :요소에 인라인 스타일을 지정한다.</li><li>tabindex :사용자가 키보드로 페이지를 내비게이션 시 이동 순서를 지정한다.</li><li>title : 요소에 관한 제목을 지정한다.</li></ul></blockquote><h3 id="주석-Comments"><a href="#주석-Comments" class="headerlink" title="주석(Comments)"></a>주석(Comments)</h3><blockquote><p>주석은 주로 개발자에게 코드를 설명하기 위해 사용되며 브라우저는 주석을 화면에 표시하지 않는다.</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;HTML&quot;&gt;&lt;a href=&quot;#HTML&quot; class=&quot;headerlink&quot; title=&quot;HTML&quot;&gt;&lt;/a&gt;HTML&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;HTML은 웹페이지를 기술하기 위한 마크업 언어이다.&lt;br&gt;조금 더 자세히 말하면 웹페이
+      
+    
+    </summary>
+    
+      <category term="web" scheme="https://jinhyunly.github.io/categories/web/"/>
+    
+      <category term="HTML" scheme="https://jinhyunly.github.io/categories/web/HTML/"/>
+    
+    
+      <category term="web" scheme="https://jinhyunly.github.io/tags/web/"/>
+    
+      <category term="HTML" scheme="https://jinhyunly.github.io/tags/HTML/"/>
+    
+  </entry>
   
   <entry>
     <title>git_tutorial</title>
