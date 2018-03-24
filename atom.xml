@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jinhyunly.github.io/"/>
-  <updated>2018-03-10T20:16:25.696Z</updated>
+  <updated>2018-03-24T17:01:47.478Z</updated>
   <id>https://jinhyunly.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>html_education</title>
+    <link href="https://jinhyunly.github.io/2018/03/25/html-education/"/>
+    <id>https://jinhyunly.github.io/2018/03/25/html-education/</id>
+    <published>2018-03-24T16:58:08.000Z</published>
+    <updated>2018-03-24T17:01:47.478Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://docs.google.com/presentation/d/16PNeKA89PiliNwgYCvygNacaR2rGgal9cl7W8p5YY4g/edit?usp=sharing" target="_blank" rel="noopener">https://docs.google.com/presentation/d/16PNeKA89PiliNwgYCvygNacaR2rGgal9cl7W8p5YY4g/edit?usp=sharing</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/16PNeKA89PiliNwgYCvygNacaR2rGgal9cl7W8p5YY4g/edit?usp=sharing&quot; target=&quot;_blank&quot; rel=&quot;noope
+      
+    
+    </summary>
+    
+      <category term="web" scheme="https://jinhyunly.github.io/categories/web/"/>
+    
+      <category term="HTML" scheme="https://jinhyunly.github.io/categories/web/HTML/"/>
+    
+    
+      <category term="web" scheme="https://jinhyunly.github.io/tags/web/"/>
+    
+      <category term="HTML" scheme="https://jinhyunly.github.io/tags/HTML/"/>
+    
+  </entry>
   
   <entry>
     <title>HTML_Introduction</title>
